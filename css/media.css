@@ -1,0 +1,92 @@
+@media (min-width: 400px) {
+  .section149 .arr1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+  }
+
+  .section149 .col_3 {
+    width: 48%;
+  }
+}
+
+@media (min-width: 500px) {
+  .section103 .section_inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 15px;
+  }
+
+  .section103 .slogan {
+    margin: 0;
+  }
+
+  .section143 .images {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .section143 .image_box {
+    width: 48%;
+  }
+
+  .section117 .arr1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .section117 .col_2 {
+    width: 46%;
+  }
+
+  .section118 .arr1 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+
+  .section118 .col_3 {
+    width: 41%;
+  }
+}
+
+@media (min-width: 700px) {
+  .section143 .image_box {
+    width: 32%;
+  }
+
+  .section149 .col_3 {
+    width: 32%;
+  }
+
+  .section154 .section_inner {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  .section154 .headliner {
+    width: 53%;
+  }
+
+  .section154 .form_wrapper {
+    width: 33%;
+  }
+
+  .section150 .arr1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .section150 .col_2 {
+    width: 48%;
+  }
+
+  .section118 .col_3 {
+    width: 27%;
+  }
+}

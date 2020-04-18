@@ -1,0 +1,253 @@
+/* Модальное окно */
+
+.modal_div {
+	width:640px;
+	border-radius:5px;
+	background:#fff;
+	position:fixed;
+	top:5%;
+	overflow-y: auto;
+	left:50%;
+	margin-left:-320px;
+	//display:none;
+	visibility: hidden;
+	opacity:0;
+	z-index:9999;
+	padding:30px;
+}
+.modal_div .modal_close {
+	position: absolute;
+  top: 10px;
+  line-height: 20px;
+  right: 15px;
+  cursor: pointer;
+  display: block;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #A9A9A9;
+}
+#overlay {
+	z-index:9998;
+	position:fixed;
+	background-color:#000;
+	opacity:0.3;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	cursor:pointer;
+	display:none;
+}
+@media (max-width: 768px) { 
+	.modal_div {
+		width:80%;
+		//height:80%;
+		padding:5%;
+		overflow-y: auto;
+	}
+	div#modal_callhunter {
+		height: auto !important;
+	}
+}
+/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) {
+	
+}
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+	
+}
+@media (min-width: @screen-lg-min) {
+	
+}*/
+
+/* Модальное окно */
+
+
+/* Стандартный дизайн счетчика */
+
+span.ctd_theme {
+	display: block;
+  margin: 30px 0px 50px;
+  text-align: center;
+} 
+span.ctd_theme>span {
+	background: #ececec;
+	background: -moz-linear-gradient(top,  #ececec 0%, #bdbdbd 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ececec), color-stop(100%,#bdbdbd));
+	background: -webkit-linear-gradient(top,  #ececec 0%,#bdbdbd 100%);
+	background: -o-linear-gradient(top,  #ececec 0%,#bdbdbd 100%);
+	background: -ms-linear-gradient(top,  #ececec 0%,#bdbdbd 100%);
+	background: linear-gradient(to bottom,  #ececec 0%,#bdbdbd 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#bdbdbd',GradientType=0 );
+	color: #000;
+  border-radius: 5px;
+  font-size: 32px;
+  padding: 10px;
+  margin: 0px 5px;
+}
+span.ctd_theme>span {
+	position: relative;
+}
+span.ctd_theme>span.day:after {
+	content: 'Дней';
+  position: absolute;
+  font-size: 12px;
+  bottom: -20px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+span.ctd_theme>span.hour:after {
+	content: 'Часов';
+  position: absolute;
+  font-size: 12px;
+  bottom: -20px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+span.ctd_theme>span.min:after {
+	content: 'Минут';
+  position: absolute;
+  font-size: 12px;
+  bottom: -20px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+span.ctd_theme>span.sec:after {
+	content: 'Секунд';
+  position: absolute;
+  font-size: 12px;
+  bottom: -20px;
+  left: 0px;
+  text-align: center;
+  width: 100%;
+}
+
+/* Стандартный дизайн счетчика */
+
+.video-responsive {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-responsive iframe,
+.video-responsive object,
+.video-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.price-fs .new {
+  color: rgb(255, 140, 0);
+  font-size: 2em;
+  font-weight: bold;
+}
+.footer .section_inner {
+  max-width: 960px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+.footer .section_inner p {
+  padding: 20px;
+  text-align: center;
+}
+.feedback {
+  width: 60px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  display: flex;
+  align-items: center;
+  background-color: rgb(222, 119, 71);
+  padding-left: 10px;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  cursor: pointer;
+  z-index: 50;
+}
+
+.popup-window {
+  display: none;
+  width: 300px;
+  position: fixed;
+  right: 0;
+  top: 15%;
+  padding: 35px 10px;
+  background: #888888;
+  border-radius: 5px;
+  z-index: 2000;
+}
+
+.feedback img {
+  width: 70%;
+}
+
+.popup-window form {
+  width: 100%;
+}
+
+.popup-window label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #000;
+}
+
+.popup-window input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+.popup-window button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: #000;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.close-popup {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 27px;
+  height: 27px;
+  background: #888888;
+  cursor: pointer;
+}
+
+.close-popup:before {
+  content: "";
+  background: #000;
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  top: 13px;
+  left: 4px;
+  transform: rotate(-45deg);
+}
+
+.close-popup:after {
+  content: "";
+  background: #000;
+  width: 20px;
+  height: 1px;
+  position: absolute;
+  top: 13px;
+  left: 4px;
+  transform: rotate(45deg);
+}
